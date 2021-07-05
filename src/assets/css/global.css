@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-.bg-blue {
+.logo {
+    letter-spacing: 0.005em;
+}
+
+.bg-blue-sh {
     background-color: #00ADFF;
 }
 
@@ -13,6 +17,10 @@
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
 }
 
-.bg-gray {
+.bg-gray-sh {
    background-color: #E5E5E5;
+}
+
+.text-blue-sh {
+    color: #00ADFF;
 }

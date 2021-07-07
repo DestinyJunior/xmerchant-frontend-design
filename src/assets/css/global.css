@@ -56,9 +56,12 @@ ul .link:hover {
   font-weight: bold;
 }
 
+.card-border, .border-only {
+    border: 1px solid #cacdd8;
+    box-sizing: border-box;
+  }
+
 .card-border {
-  border: 1px solid #cacdd8;
-  box-sizing: border-box;
   border-radius: 10px;
 }
 

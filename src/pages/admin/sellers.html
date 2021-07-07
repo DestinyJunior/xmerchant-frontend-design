@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sellers Page</title>
+    <link rel="stylesheet" href="../../assets/css/app.css" />
+    <link rel="stylesheet" href="../../assets/css/global.css" />
+    <link rel="stylesheet" href="../../assets/css/table.css" />
+  </head>
+
+  <body>
+    <div class="w-screen h-screen flex overflow-none">
+      <!-- side nav -->
+      <div class="w-2/12 h-full bg-white shadow-sh flex flex-col space-y-6">
+        <div class="flex items-center py-3 px-8">
+          <span class="text-lg text-blue-sh font-bold">LOGO</span>
+        </div>
+        <div class="overflow-auto">
+          <ul class="flex flex-col items-start space-y-6">
+            <li class="py-1 link">
+              <a href="./index.html" class="flex items-center space-x-2 px-3">
+                <span>
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.63535 0H1.82285C0.81768 0 0 0.81768 0 1.82285V6.51035C0 7.51572 0.81768 8.3334 1.82285 8.3334H9.63535C10.6407 8.3334 11.4584 7.51572 11.4584 6.51035V1.82285C11.4584 0.81768 10.6407 0 9.63535 0Z"
+                      fill="#7D86A9"
+                    />
+                    <path
+                      d="M9.63535 10.417H1.82285C0.81768 10.417 0 11.2347 0 12.24V23.1775C0 24.1827 0.81768 25.0004 1.82285 25.0004H9.63535C10.6407 25.0004 11.4584 24.1827 11.4584 23.1775V12.24C11.4584 11.2347 10.6407 10.417 9.63535 10.417Z"
+                      fill="#7D86A9"
+                    />
+                    <path
+                      d="M23.1775 16.667H15.365C14.3597 16.667 13.542 17.4847 13.542 18.49V23.1775C13.542 24.1827 14.3597 25.0004 15.365 25.0004H23.1775C24.1827 25.0004 25.0004 24.1827 25.0004 23.1775V18.49C25.0004 17.4847 24.1827 16.667 23.1775 16.667Z"
+                      fill="#7D86A9"
+                    />
+                    <path
+                      d="M23.1775 0H15.365C14.3597 0 13.542 0.81768 13.542 1.82285V12.7604C13.542 13.7657 14.3597 14.5834 15.365 14.5834H23.1775C24.1827 14.5834 25.0004 13.7657 25.0004 12.7604V1.82285C25.0004 0.81768 24.1827 0 23.1775 0V0Z"
+                      fill="#7D86A9"
+                    />
+                  </svg>
+                </span>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li class="py-1 link">
+              <a href="./users.html" class="flex items-center space-x-2 px-3">
+                <span>
+                    <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 0.000976562C5.37328 0.000976562 0 5.3732 0 12.0004C0 18.6277 5.37275 23.9999 12 23.9999C18.6278 23.9999 24 18.6277 24 12.0004C24 5.3732 18.6278 0.000976562 12 0.000976562ZM12 3.58896C14.1927 3.58896 15.9696 5.36635 15.9696 7.55803C15.9696 9.75025 14.1927 11.5271 12 11.5271C9.80831 11.5271 8.03145 9.75025 8.03145 7.55803C8.03145 5.36635 9.80831 3.58896 12 3.58896ZM11.9974 20.8626C9.81042 20.8626 7.80743 20.0662 6.2625 18.7479C5.88615 18.4269 5.66898 17.9562 5.66898 17.4623C5.66898 15.2395 7.46798 13.4605 9.69129 13.4605H14.3098C16.5336 13.4605 18.3257 15.2395 18.3257 17.4623C18.3257 17.9567 18.1096 18.4263 17.7328 18.7474C16.1884 20.0662 14.1848 20.8626 11.9974 20.8626Z"
+                      fill="#7D86A9"
+                    />
+                  </svg>
+                </span>
+                <span>Users</span>
+              </a>
+            </li>
+            <li class="py-1 link border-l-sh active">
+              <a href="./sellers.html" class="flex items-center space-x-2 px-3">
+                <span
+                  >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.5358 12.8115H18.6797C18.8689 13.3295 18.9722 13.8885 18.9722 14.4711V21.4859C18.9722 21.7289 18.93 21.962 18.853 22.1789H21.9215C23.0678 22.1789 24.0002 21.2463 24.0002 20.1001V16.276C24.0003 14.3657 22.4461 12.8115 20.5358 12.8115Z" fill="black"/>
+                    <path d="M5.02806 14.4711C5.02806 13.8884 5.13142 13.3295 5.3206 12.8115H3.46454C1.55419 12.8115 0 14.3657 0 16.2761V20.1002C0 21.2464 0.932486 22.1789 2.07872 22.1789H5.14726C5.07034 21.962 5.02806 21.7289 5.02806 21.4859V14.4711Z" fill="black"/>
+                    <path d="M14.1218 11.0068H9.8786C7.96825 11.0068 6.41406 12.561 6.41406 14.4714V21.4862C6.41406 21.8689 6.72428 22.1791 7.10697 22.1791H16.8935C17.2761 22.1791 17.5864 21.8689 17.5864 21.4862V14.4714C17.5864 12.561 16.0322 11.0068 14.1218 11.0068Z" fill="black"/>
+                    <path d="M11.9995 1.82031C9.7021 1.82031 7.83301 3.68941 7.83301 5.9869C7.83301 7.54526 8.69312 8.90628 9.96334 9.62084C10.5658 9.95975 11.2604 10.1534 11.9995 10.1534C12.7387 10.1534 13.4333 9.95975 14.0358 9.62084C15.306 8.90628 16.1661 7.54521 16.1661 5.9869C16.1661 3.68946 14.297 1.82031 11.9995 1.82031Z" fill="black"/>
+                    <path d="M4.6834 5.7041C2.9652 5.7041 1.56738 7.10192 1.56738 8.82012C1.56738 10.5383 2.9652 11.9361 4.6834 11.9361C5.11925 11.9361 5.53428 11.8459 5.9113 11.6836C6.56314 11.4029 7.10061 10.9062 7.43319 10.2839C7.66663 9.84716 7.79943 9.34892 7.79943 8.82012C7.79943 7.10196 6.40161 5.7041 4.6834 5.7041Z" fill="black"/>
+                    <path d="M19.3162 5.7041C17.598 5.7041 16.2002 7.10192 16.2002 8.82012C16.2002 9.34897 16.333 9.8472 16.5664 10.2839C16.899 10.9062 17.4365 11.403 18.0883 11.6836C18.4653 11.8459 18.8804 11.9361 19.3162 11.9361C21.0344 11.9361 22.4322 10.5383 22.4322 8.82012C22.4322 7.10192 21.0344 5.7041 19.3162 5.7041Z" fill="black"/>
+                    </svg>                    
+                </span>
+                <span class="fond-semibold">Sellers</span>
+              </a>
+            </li>
+            <li class="py-1 link">
+              <a href="./transactions.html" class="flex items-center space-x-2 px-3"
+                ><span
+                  ><svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M12.544 9.53998V10.7466C12.544 11.1299 12.6205 11.4514 12.7716 11.7019C12.9799 12.0476 13.322 12.2457 13.7103 12.2457C14.0908 12.2457 14.4689 12.0604 14.8341 11.6953L18.8195 7.70984C19.6946 6.83478 19.6946 5.41095 18.8195 4.53589L14.8341 0.550415C14.4689 0.18512 14.0908 0 13.7103 0C13.1297 0 12.544 0.463623 12.544 1.49908V2.59497C6.88564 2.92914 2.20144 7.27148 1.50527 12.9567C1.46627 13.2742 1.64681 13.5782 1.94436 13.6959C2.02859 13.7292 2.11629 13.7454 2.2029 13.7454C2.42226 13.7454 2.63503 13.6426 2.77053 13.4575C4.63784 10.9061 7.636 9.38287 10.7905 9.38287C11.375 9.38287 11.9628 9.43561 12.544 9.53998Z"
+                        fill="#7D86A9"
+                      />
+                      <path
+                        d="M22.043 10.3043C21.7455 10.1864 21.406 10.2846 21.2169 10.5429C19.3497 13.0941 16.3516 14.6174 13.197 14.6174C12.6126 14.6174 12.0248 14.5647 11.4436 14.4603V13.2536C11.4436 12.2182 10.8577 11.7545 10.2772 11.7545C9.89674 11.7545 9.51862 11.9398 9.15333 12.3051L5.16785 16.2904C4.29298 17.1655 4.29298 18.5893 5.16804 19.4646L9.15333 23.4499C9.51862 23.8152 9.89674 24.0003 10.2772 24.0003C10.8577 24.0003 11.4436 23.5366 11.4436 22.5012V21.4053C17.1021 21.0711 21.7861 16.7288 22.4823 11.0437C22.5213 10.726 22.3408 10.4221 22.043 10.3043Z"
+                        fill="#7D86A9"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </span>
+                <span>Transactions</span></a
+              >
+            </li>
+            <li class="py-1 link">
+              <a href="./reviews.html" class="flex items-center space-x-2 px-3"
+                ><span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M8.85905 12.5142L9.495 11.6197L8.118 11.1878L5.89195 8.05664L3.66591 11.1878L0 12.3373L2.29012 15.422L2.25052 19.2637L5.89195 18.0389L6.85969 18.3644L3.71409 14.1274L8.85905 12.5142Z"
+                        fill="#7D86A9"
+                      />
+                      <path
+                        d="M24 12.3373L20.3341 11.1878L18.1081 8.05664L15.8821 11.1878L14.4775 11.6282L15.1074 12.5142L20.2523 14.1274L17.0956 18.3795L18.1081 18.0389L21.7495 19.2638L21.7099 15.422L24 12.3373Z"
+                        fill="#7D86A9"
+                      />
+                      <path
+                        d="M11.2803 2.17383H12.6865V5.98233H11.2803V2.17383Z"
+                        fill="#7D86A9"
+                      />
+                      <path
+                        d="M7.11914 5.64453L8.11336 4.65031L9.73871 6.27566L8.74449 7.26988L7.11914 5.64453Z"
+                        fill="#7D86A9"
+                      />
+                      <path
+                        d="M14.2236 6.27539L15.849 4.65008L16.8432 5.6443L15.2179 7.26961L14.2236 6.27539Z"
+                        fill="#7D86A9"
+                      />
+                      <path
+                        d="M17.8747 14.8999L14.2088 13.7504L11.9828 10.6191L9.75673 13.7504L6.09082 14.8999L8.38094 17.9846L8.34129 21.8262L11.9828 20.6014L15.6242 21.8263L15.5846 17.9846L17.8747 14.8999Z"
+                        fill="#7D86A9"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </span>
+                <span>Reviews</span></a
+              >
+            </li>
+            <li class="py-1 link">
+              <a href="./products.html" class="flex items-center space-x-2 px-3">
+                <span>
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23.5144 24.2239L22.0847 6.5319C22.0565 6.18289 21.765 5.91398 21.4149 5.91398H17.5768V5.06317C17.5768 2.27133 15.3354 0 12.5434 0H12.4547C9.66288 0 7.36172 2.27133 7.36172 5.06317V5.91398H3.58332C3.23314 5.91398 2.94165 6.18289 2.91342 6.5319L1.47973 24.2738C1.46459 24.4609 1.52839 24.6457 1.65563 24.7836C1.78287 24.9215 1.96208 25 2.14962 25H22.8485C22.8491 25 22.8498 25 22.8503 25C23.2216 25 23.5224 24.6992 23.5224 24.328C23.5224 24.2926 23.5197 24.2578 23.5144 24.2239ZM8.70581 5.06317C8.70581 3.01246 10.404 1.34409 12.4547 1.34409H12.5434C14.5942 1.34409 16.2327 3.01246 16.2327 5.06317V5.91398H8.70581V5.06317Z"
+                      fill="#7D86A9"
+                    />
+                  </svg>
+                </span>
+                <span>Products</span>
+              </a>
+            </li>
+            <li class="py-1 link">
+              <a href="./brands.html" class="flex items-center space-x-2 px-3">
+                <span>
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.1376 12.5L24.6974 10.0473C24.7221 9.93907 24.7221 9.82667 24.6974 9.71845C24.6727 9.61023 24.6239 9.50896 24.5547 9.42217L22.9862 7.4553L22.4264 5.00265C22.4017 4.89443 22.3529 4.79317 22.2837 4.70638C22.2145 4.6196 22.1266 4.54952 22.0266 4.50136L19.7601 3.40979L18.1915 1.44292C18.1223 1.35613 18.0344 1.28605 17.9344 1.23789C17.8344 1.18973 17.7248 1.16472 17.6138 1.16472H15.0981L12.8314 0.0731536C12.7314 0.0250032 12.6218 0 12.5108 0C12.3998 0 12.2902 0.0250032 12.1902 0.0731536L9.92356 1.16472H7.40786C7.29686 1.16473 7.18729 1.18974 7.08729 1.2379C6.98729 1.28607 6.89942 1.35614 6.83021 1.44292L5.26162 3.40979L2.99505 4.50123C2.89503 4.54939 2.80715 4.61947 2.73794 4.70625C2.66872 4.79304 2.61994 4.8943 2.59524 5.00253L2.03545 7.4553L0.466911 9.42217C0.397691 9.50895 0.348914 9.61022 0.324204 9.71844C0.299493 9.82666 0.299484 9.93906 0.324177 10.0473L0.88403 12.5L0.324177 14.9527C0.299484 15.0609 0.299493 15.1733 0.324204 15.2816C0.348914 15.3898 0.397691 15.491 0.466911 15.5778L2.03545 17.5447L2.59524 19.9974C2.61994 20.1056 2.66872 20.2068 2.73794 20.2936C2.80715 20.3804 2.89503 20.4505 2.99505 20.4986L5.26162 21.5902L6.83021 23.5571C6.89942 23.6439 6.98729 23.7139 7.08729 23.7621C7.18729 23.8103 7.29686 23.8353 7.40786 23.8353H9.92356L12.1902 24.9268C12.2902 24.975 12.3998 25 12.5108 25C12.6218 25 12.7314 24.975 12.8314 24.9268L15.0981 23.8353H17.6138C17.7248 23.8353 17.8344 23.8103 17.9344 23.7621C18.0344 23.7139 18.1223 23.6439 18.1915 23.5571L19.7601 21.5902L22.0266 20.4988C22.1266 20.4506 22.2145 20.3805 22.2837 20.2937C22.3529 20.207 22.4017 20.1057 22.4264 19.9975L22.9862 17.5448L24.5547 15.578C24.6239 15.4912 24.6727 15.3899 24.6974 15.2817C24.7221 15.1735 24.7221 15.0611 24.6974 14.9528L24.1376 12.5ZM12.5108 21.5517C7.55392 21.5517 3.52067 17.5188 3.52067 12.5616C3.52067 7.60437 7.55392 3.57143 12.5108 3.57143C17.4677 3.57143 21.501 7.60468 21.501 12.5616C21.501 17.5185 17.468 21.5517 12.5108 21.5517Z"
+                      fill="#7D86A9"
+                    />
+                    <path
+                      d="M12.511 4.31055C7.96124 4.31055 4.25977 8.01202 4.25977 12.5618C4.25977 17.1115 7.96124 20.813 12.511 20.813C17.0607 20.813 20.7622 17.1115 20.7622 12.5618C20.7622 8.01202 17.0607 4.31055 12.511 4.31055ZM12.511 8.0252C12.6571 8.0252 12.8 8.06854 12.9215 8.14973C13.043 8.23092 13.1377 8.34633 13.1937 8.48135C13.2496 8.61637 13.2642 8.76494 13.2357 8.90827C13.2072 9.05161 13.1368 9.18327 13.0335 9.28661C12.9302 9.38995 12.7985 9.46033 12.6552 9.48884C12.5118 9.51735 12.3632 9.50272 12.2282 9.44679C12.0932 9.39086 11.9778 9.29615 11.8966 9.17464C11.8154 9.05312 11.7721 8.91026 11.7721 8.76412C11.7721 8.56815 11.8499 8.3802 11.9885 8.24163C12.1271 8.10305 12.315 8.0252 12.511 8.0252ZM7.33858 11.4534C7.19244 11.4534 7.04958 11.4101 6.92806 11.3289C6.80655 11.2477 6.71184 11.1323 6.65591 10.9973C6.59999 10.8622 6.58535 10.7137 6.61386 10.5703C6.64238 10.427 6.71275 10.2953 6.81609 10.192C6.91943 10.0887 7.05109 10.0183 7.19443 9.98977C7.33776 9.96126 7.48633 9.97589 7.62135 10.0318C7.75637 10.0877 7.87178 10.1825 7.95297 10.304C8.03416 10.4255 8.0775 10.5683 8.0775 10.7145C8.0775 10.9105 7.99965 11.0984 7.86108 11.237C7.7225 11.3756 7.53456 11.4534 7.33858 11.4534ZM17.107 12.2823L16.4039 16.501C16.3751 16.6735 16.2861 16.8303 16.1526 16.9433C16.0191 17.0564 15.8499 17.1184 15.675 17.1184H9.34702C9.1721 17.1184 9.00286 17.0564 8.8694 16.9433C8.73593 16.8303 8.6469 16.6735 8.61814 16.501L7.915 12.2823C7.89139 12.1408 7.90952 11.9954 7.96719 11.8639C8.02486 11.7325 8.11956 11.6207 8.23973 11.5422C8.3599 11.4637 8.50033 11.4219 8.64387 11.4219C8.78741 11.4219 8.92784 11.4637 9.048 11.5422L10.5628 12.5315L11.8799 10.3702C11.9459 10.262 12.0385 10.1726 12.149 10.1105C12.2595 10.0484 12.3841 10.0158 12.5109 10.0158C12.6376 10.0158 12.7622 10.0484 12.8727 10.1105C12.9832 10.1726 13.0759 10.262 13.1418 10.3702L14.459 12.5315L15.9738 11.5422C16.094 11.4637 16.2344 11.4219 16.3779 11.4219C16.5215 11.4219 16.6619 11.4637 16.7821 11.5422C16.9022 11.6207 16.9969 11.7325 17.0546 11.8639C17.1123 11.9954 17.1304 12.1408 17.1068 12.2823H17.107ZM17.6834 11.4534C17.5373 11.4534 17.3944 11.4101 17.2729 11.3289C17.1514 11.2477 17.0567 11.1323 17.0007 10.9973C16.9448 10.8622 16.9302 10.7137 16.9587 10.5703C16.9872 10.427 17.0576 10.2953 17.1609 10.192C17.2643 10.0887 17.3959 10.0183 17.5393 9.98977C17.6826 9.96126 17.8312 9.97589 17.9662 10.0318C18.1012 10.0877 18.2166 10.1825 18.2978 10.304C18.379 10.4255 18.4223 10.5683 18.4223 10.7145C18.4223 10.9105 18.3445 11.0984 18.2059 11.237C18.0673 11.3756 17.8794 11.4534 17.6834 11.4534Z"
+                      fill="#7D86A9"
+                    />
+                  </svg>
+                </span>
+                <span>Brands</span>
+              </a>
+            </li>
+            <li class="py-1 link">
+              <a href="./orders.html" class="flex items-center space-x-2 px-3"
+                ><span
+                  ><svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.9902 17.678V13.482C24.9902 12.8571 24.8119 12.2322 24.5438 11.6965L21.8725 7.14346C21.6046 6.60781 20.9798 6.25071 20.3549 6.25071H16.3375C15.7126 6.25071 15.1768 6.78636 15.1768 7.41129V16.9638H14.2841V4.4652C14.2841 3.48317 13.4807 2.67969 12.4986 2.67969H0V18.7493H2.67827C3.12464 17.2316 4.46378 16.071 6.1599 16.071C7.85625 16.071 9.28455 17.2316 9.64176 18.7493H16.1589C16.6053 17.2316 17.9444 16.071 19.6406 16.071C21.0691 16.071 22.2294 16.8745 22.7652 18.0351C23.0331 18.4815 23.4727 18.7493 23.9191 18.7493C24.5438 18.7493 25.0796 18.2136 24.9902 17.678ZM16.9624 12.5V8.03622H20.5334L23.1223 12.5H16.9624Z"
+                      fill="#7D86A9"
+                    />
+                    <path
+                      d="M19.6402 16.9639C18.1226 16.9639 16.9619 18.1244 16.9619 19.6421C16.9619 21.1598 18.1226 22.3204 19.6402 22.3204C21.1578 22.3204 22.3184 21.1598 22.3184 19.6421C22.3184 18.1244 21.1578 16.9639 19.6402 16.9639ZM19.6402 20.892C18.9259 20.892 18.3904 20.3563 18.3904 19.6421C18.3904 18.9279 18.926 18.3923 19.6402 18.3923C20.3544 18.3923 20.8899 18.9279 20.8899 19.6421C20.8899 20.3563 20.3544 20.892 19.6402 20.892Z"
+                      fill="#7D86A9"
+                    />
+                    <path
+                      d="M6.24955 16.9639C4.73193 16.9639 3.57129 18.1244 3.57129 19.6421C3.57129 21.1598 4.73193 22.3204 6.24955 22.3204C7.76718 22.3204 8.92782 21.1598 8.92782 19.6421C8.92782 18.1244 7.76718 16.9639 6.24955 16.9639ZM6.24955 20.892C5.53529 20.892 4.99981 20.3563 4.99981 19.6421C4.99981 18.9279 5.53535 18.3923 6.24955 18.3923C6.96376 18.3923 7.4993 18.9279 7.4993 19.6421C7.4993 20.3563 6.96381 20.892 6.24955 20.892Z"
+                      fill="#7D86A9"
+                    />
+                    <path
+                      d="M6.24912 20.0881C6.49565 20.0881 6.6955 19.8882 6.6955 19.6417C6.6955 19.3952 6.49565 19.1953 6.24912 19.1953C6.00259 19.1953 5.80273 19.3952 5.80273 19.6417C5.80273 19.8882 6.00259 20.0881 6.24912 20.0881Z"
+                      fill="#7D86A9"
+                    />
+                    <path
+                      d="M19.6407 20.0881C19.8872 20.0881 20.0871 19.8882 20.0871 19.6417C20.0871 19.3952 19.8872 19.1953 19.6407 19.1953C19.3942 19.1953 19.1943 19.3952 19.1943 19.6417C19.1943 19.8882 19.3942 20.0881 19.6407 20.0881Z"
+                      fill="#7D86A9"
+                    />
+                  </svg>
+                </span>
+                <span>Orders</span></a
+              >
+            </li>
+            <li class="py-1 link">
+              <a href="./settings.html" class="flex items-center space-x-2 px-3"
+                ><span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M22.683 9.394L20.803 9.155C20.648 8.678 20.457 8.218 20.234 7.781L21.395 6.286C21.865 5.681 21.81 4.827 21.273 4.307L19.698 2.732C19.173 2.19 18.319 2.136 17.713 2.605L16.22 3.766C15.783 3.543 15.323 3.352 14.845 3.197L14.606 1.32C14.516 0.567 13.877 0 13.12 0H10.88C10.123 0 9.484 0.567 9.394 1.317L9.155 3.197C8.677 3.352 8.217 3.542 7.78 3.766L6.286 2.605C5.682 2.136 4.828 2.19 4.307 2.727L2.732 4.301C2.19 4.827 2.135 5.681 2.605 6.287L3.766 7.781C3.542 8.218 3.352 8.678 3.197 9.155L1.32 9.394C0.567 9.484 0 10.123 0 10.88V13.12C0 13.877 0.567 14.516 1.317 14.606L3.197 14.845C3.352 15.322 3.543 15.782 3.766 16.219L2.605 17.714C2.135 18.319 2.19 19.173 2.727 19.693L4.302 21.268C4.828 21.809 5.681 21.863 6.287 21.394L7.781 20.233C8.218 20.457 8.678 20.648 9.155 20.802L9.394 22.678C9.484 23.433 10.123 24 10.88 24H13.12C13.877 24 14.516 23.433 14.606 22.683L14.845 20.803C15.322 20.648 15.782 20.457 16.219 20.234L17.714 21.395C18.319 21.865 19.173 21.81 19.693 21.273L21.268 19.698C21.81 19.172 21.865 18.319 21.395 17.713L20.234 16.219C20.458 15.782 20.649 15.322 20.803 14.845L22.679 14.606C23.432 14.516 23.999 13.877 23.999 13.12V10.88C24 10.123 23.433 9.484 22.683 9.394ZM12 17C9.243 17 7 14.757 7 12C7 9.243 9.243 7 12 7C14.757 7 17 9.243 17 12C17 14.757 14.757 17 12 17Z"
+                        fill="#7D86A9"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </span>
+                <span>Settings</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-10/12 h-full flex flex-col">
+        <!-- header -->
+        <header class="w-full py-1 px-7 bg-blue-sh">
+          <nav class="w-full flex items-center justify-end">
+            <div class="h-full px-4 border-l border-r">
+              <svg
+                width="19"
+                height="22"
+                viewBox="0 0 19 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.9079 18.5561L16.3674 15.9326C15.656 14.7217 15.28 13.3348 15.28 11.9231V9.625C15.28 6.72375 13.3852 4.26985 10.794 3.47875V1.83335C10.794 0.82225 9.98925 0 8.99963 0C8.01001 0 7.20522 0.82225 7.20522 1.83335V3.47875C4.61415 4.26985 2.71927 6.72375 2.71927 9.625V11.9231C2.71927 13.3348 2.34333 14.7207 1.63275 15.9317L0.0922805 18.5552C0.00884124 18.6973 0.00703283 18.8733 0.0868973 19.0172C0.166762 19.1611 0.314799 19.25 0.476295 19.25H17.523C17.6845 19.25 17.8334 19.1611 17.9133 19.0181C17.9932 18.8751 17.9905 18.6972 17.9079 18.5561Z"
+                  fill="white"
+                />
+                <path
+                  d="M6.1748 20.167C6.68082 21.2468 7.75208 22.0003 9.00005 22.0003C10.248 22.0003 11.3193 21.2468 11.8253 20.167H6.1748V20.167Z"
+                  fill="white"
+                />
+                <circle cx="15.5" cy="6.5" r="3.5" fill="#F6AE3F" />
+              </svg>
+            </div>
+            <div class="flex items-center pl-4 space-x-4">
+              <img
+                src="../../assets/images/png/admin.png"
+                class="w-11 h-11 rounded-full"
+                alt="admin profile"
+              />
+              <span class="text-white">Admin</span>
+              <span
+                ><svg
+                  width="12"
+                  height="7"
+                  viewBox="0 0 12 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.7772 0.21159C11.6289 0.0704909 11.4531 0 11.2499 0H0.750056C0.546802 0 0.371088 0.0704909 0.222628 0.21159C0.0741683 0.352844 0 0.519846 0 0.712905C0 0.905926 0.0741683 1.07293 0.222628 1.21407L5.47257 6.2037C5.6212 6.3448 5.79691 6.41545 6 6.41545C6.20309 6.41545 6.37897 6.3448 6.52731 6.2037L11.7772 1.21403C11.9255 1.07293 12 0.905926 12 0.712866C12 0.519846 11.9255 0.352844 11.7772 0.21159Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+            </div>
+          </nav>
+        </header>
+
+        <!-- main content area -->
+        <main class="px-8 py-4 space-y-6 overflow-auto">
+          <div class="flex items-center justify-between pb-5">
+            <h3 class="text-2xl fond-extrabold">Sellers</h3>
+            <div class="flex items-center space-x-6">
+              <div class="flex items-center space-x-2">
+                <button class="text-sm btn-outline-blue px-4 py-2">
+                  Import
+                </button>
+                <button class="text-sm btn-outline-blue px-4 py-2">
+                  Export
+                </button>
+              </div>
+              <button class="text-sm btn-blue px-4 py-2">Add New User</button>
+            </div>
+          </div>
+          <!-- table -->
+          <div class="flex flex-col space-y-10">
+            <!-- users table -->
+            <div class="card-border px-6 py-7 space-y-2">
+              <div class="w-full flex justify-end">
+               <div class="flex items-center space-x-1 border-only px-3 py-1 rounded">
+                <span>
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.80357 12.1429C10.0088 12.1429 12.6071 9.64844 12.6071 6.57143C12.6071 3.49441 10.0088 1 6.80357 1C3.59835 1 1 3.49441 1 6.57143C1 9.64844 3.59835 12.1429 6.80357 12.1429Z" stroke="#858585"/>
+                        <path d="M11.3174 10.9043L14.5416 13.9995" stroke="#858585" stroke-linecap="square"/>
+                    </svg>                        
+                </span>
+                  <input type="search" class="focus:outline-none" name="search">
+               </div>
+              </div>
+              <table class="min-w-full border-spacing">
+                <thead class="text-xs">
+                  <tr>
+                    <th
+                      class="
+                        px-4
+                        py-1
+                        whitespace-nowrap
+                        flex
+                        items-center
+                        space-x-4
+                      "
+                    >
+                      <input type="checkbox" name="select" /> <span>Name</span>
+                    </th>
+                    <th class="px-4 py-1 whitespace-nowrap">Email</th>
+                    <th class="px-4 py-1 whitespace-nowrap">Products</th>
+                    <th class="px-4 py-1 whitespace-nowrap">Status</th>
+                    <th class="px-4 py-1 whitespace-nowrap">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        user@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">390</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        tola@gmail.com
+                      </div>
+                    </td>
+
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">99</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        sdjbook@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">39</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">0</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-red
+                        "
+                      >
+                        Blocked
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">0</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">0</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">0</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">0</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">0</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-red
+                        "
+                      >
+                        Blocked
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">253</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">0</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">253</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-red
+                        "
+                      >
+                        Blocked
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">512</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-red
+                        "
+                      >
+                        Blocked
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">253</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">253</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">222</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">78</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <!--  -->
+                  <tr>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center space-x-4">
+                        <input type="checkbox" name="select" />
+                        <div class="flex-shrink-0 h-10 w-10">
+                          <img
+                            class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium table-text-color">
+                            Jane Cooper
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="flex items-center text-sm table-text-color">
+                        weill@gmail.com
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <div class="text-sm table-text-color">34</div>
+                    </td>
+                    <td class="px-4 py-2 whitespace-nowrap">
+                      <button
+                        class="
+                          w-24
+                          text-center
+                          py-1
+                          text-xs
+                          leading-5
+                          font-semibold
+                          status-blue
+                        "
+                      >
+                        Active
+                      </button>
+                    </td>
+
+                    <td
+                      class="
+                        px-4
+                        py-2
+                        whitespace-nowrap
+                        text-right text-sm
+                        font-medium
+                        action-btn
+                      "
+                    >
+                      <img
+                        src="/src/assets/images/svg/action-btn.svg"
+                        class="w-6 h-6"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <!-- paginations -->
+              <div class="flex space-x-2 pagination">
+                <span class="btn-blue-font-light px-3 py-1 cursor-pointer"
+                  >1</span
+                >
+                <span
+                  class="btn-outline-blue-font-light px-3 py-1 cursor-pointer"
+                  >2</span
+                >
+                <span
+                  class="btn-outline-blue-font-light px-3 py-1 cursor-pointer"
+                  >3</span
+                >
+                <span
+                  class="btn-outline-blue-font-light px-3 py-1 cursor-pointer"
+                  >
+                  <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.20378 2V0.74H0.0997813V2H1.20378ZM4.14519 2V0.74H3.04119V2H4.14519ZM7.08659 2V0.74H5.98259V2H7.08659ZM10.028 2V0.74H8.924V2H10.028ZM12.9694 2V0.74H11.8654V2H12.9694ZM15.9108 2V0.74H14.8068V2H15.9108Z" fill="#00ADFF"/>
+                    </svg>
+                    
+                  </span
+                >
+                <span
+                  class="btn-outline-blue-font-light px-3 py-1 cursor-pointer"
+                  >30</span
+                >
+                <span
+                  class="btn-outline-blue-font-light px-3 py-1 cursor-pointer"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.66699 11.3337L12.0003 8.00033L8.66699 4.66699"
+                      stroke="#00ADFF"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4 11.3337L7.33333 8.00033L4 4.66699"
+                      stroke="#00ADFF"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

@@ -56,6 +56,12 @@ tr.td-2-start td:nth-child(2) {
     border-radius: 3px;
 }
 
+.status-blue-light {
+    background-color: #AEE5FF;
+    color: #1676FF;
+    border-radius: 3px;
+}
+
 .status-red {
    background-color: #FFBEBE;
    color: #DF0142;

@@ -107,3 +107,38 @@ ul .link:hover {
 
 /* background: #; background: #; */
 /*    */
+
+
+/* buttons */
+
+.btn-outline-blue {
+    border: 1px solid #00ADFF;
+    color: #00ADFF;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.btn-blue {
+    background-color: #00ADFF;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.btn-outline-blue-font-light {
+    border: 1px solid #00ADFF;
+    color: #00ADFF;
+    box-sizing: border-box;
+}
+
+.btn-blue-font-light {
+    background-color: #00ADFF;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.pagination span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

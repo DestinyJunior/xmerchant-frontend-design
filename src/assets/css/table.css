@@ -78,10 +78,16 @@ input[type="checkbox"] {
   border-radius: 2px;
 }
 
+input[type="checkbox"]:checked {
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #00ADFF !important;
+}
+
 input[type="checkbox"]:checked ~ {
   box-sizing: border-box;
   border-radius: 2px;
-  color: #000000 !important;
+  color: #00ADFF !important;
 }
 
 .drop-down-menu {

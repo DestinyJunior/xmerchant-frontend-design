@@ -56,6 +56,23 @@ ul .link:hover {
   font-weight: bold;
 }
 
+.settings ul li a {
+    color: #00ADFF;
+    opacity: 0.5;
+  font-weight: bold;
+}
+
+.settings ul li a:hover {
+    color: #00ADFF;
+    opacity: 0.5;
+  font-weight: bold;
+}
+
+.settings ul li a.active {
+    color: #202020;
+    opacity: 0.5;
+}
+
 .card-border, .border-only {
     border: 1px solid #cacdd8;
     box-sizing: border-box;

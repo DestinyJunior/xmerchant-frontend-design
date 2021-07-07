@@ -96,6 +96,11 @@ input[type="checkbox"]:checked ~ {
   color: #00ADFF !important;
 }
 
+textarea, textarea::placeholder, input::placeholder {
+    color: #262626;
+    opacity: 0.5;
+}
+
 .drop-down-menu {
   background-color: #ffff;
   color: #858585;

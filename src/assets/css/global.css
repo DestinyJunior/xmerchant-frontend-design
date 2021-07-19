@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  cursor: pointer;
+}
+
 .logo {
   letter-spacing: 0.005em;
 }
@@ -19,6 +23,12 @@
 .bg-dark-blue-sh {
   background-color:  #001119;
 }
+
+.border-outline-blue {
+  border: 1px solid #00ADFF;
+  color: #00ADFF;
+}
+
 
 
 .bg-blue-shadow {

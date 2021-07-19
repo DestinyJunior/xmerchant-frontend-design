@@ -1,0 +1,26 @@
+/* check box */
+
+input[type="checkbox"] {
+    height: 19px;
+    width: 19px;
+    border: 1px solid #858585;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+  
+  input[type="checkbox"]:checked {
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #00ADFF !important;
+  }
+  
+  input[type="checkbox"]:checked ~ {
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #00ADFF !important;
+  }
+  
+  textarea, textarea::placeholder, input::placeholder , select, select option{
+      color: #262626;
+      opacity: 0.5;
+  }

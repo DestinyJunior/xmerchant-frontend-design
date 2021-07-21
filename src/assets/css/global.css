@@ -4,8 +4,17 @@
   box-sizing: border-box;
 }
 
+/* body {
+  font-family: 'Gotham';
+  font-style: normal;
+} */
+
 a {
   cursor: pointer;
+}
+
+.banner-top {
+  background-color: #F5F5F5;
 }
 
 .logo {
@@ -20,16 +29,22 @@ a {
   background-color:  #E6F7FF;
 }
 
+.bg-light-blue80-sh {
+  background-color:  #CCEFFF;
+}
+
 .bg-dark-blue-sh {
   background-color:  #001119;
+}
+
+.text-dark-blue { 
+  color: #004566;
 }
 
 .border-outline-blue {
   border: 1px solid #00ADFF;
   color: #00ADFF;
 }
-
-
 
 .bg-blue-shadow {
   background-color: #00adff;
@@ -196,4 +211,40 @@ ul .link:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn-carousel-arrow {
+  background-color: #FFFFFF;
+  border: 1px solid #BDBDBD;
+}
+
+.card-showcase {
+  background-color: #FAFAFA;
+  border: 1px solid #BDBDBD;
+  box-sizing: border-box;
+}
+
+.bg-red-sh, .discount {
+  background-color: #FF0000;
+  color: white;
+}
+
+.text-gray-22 {
+  color: #BDBDBD;
+}
+
+.text-red-sh {
+  color: #FF0000;
+}
+
+.text-dark-blue-23 {
+  color: #002333;
+}
+
+.text-gray-43 {
+  color: #898989;
+}
+
+.text-gray-3a {
+  color: #3A3A3A;
 }

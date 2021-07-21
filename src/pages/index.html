@@ -4,9 +4,259 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="../assets/css/app.css" />
+    <link rel="stylesheet" href="../assets/css/global.css" />
+
+    <style>
+        .banner {
+            background: linear-gradient(90.47deg, rgba(255, 255, 255, 0.6) 0.49%, rgba(255, 255, 255, 0.4) 61.98%, rgba(255, 255, 255, 0) 99.7%),  url("../assets/images/png/home-banner.png");
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center center;
+             }
+     </style>
 </head>
 <body>
-    
+    <div class="w-full">
+        <!-- banner top -->
+        <div class="w-full banner-top flex items-center justify-between px-10 py-1">
+            <span>Shop fast and safe</span>
+            <span>Sell on skyshopping</span>
+        </div>
+
+        <!-- header and nav -->
+        <header class="px-10 py-6 border">
+            <nav class="flex items-center justify-between">
+                <div>
+                    <form action="">
+                        <div class="flex items-center">
+                            <button class="border px-3 py-2">All Categories</button>
+                            <input type="search" class="h-full border py-2 px-2 border-l-0" placeholder="search for products" name="search">
+                            <button class="bg-blue-sh p-2">
+                                <img src="../assets/images/svg/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <span class="text-3xl font-bold text-blue-sh">Skyshooping Logo</span>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <div class="flex items-center space-x-2">
+                        <span>
+                            <img src="../assets/images/svg/person.svg" alt="person">
+                        </span>
+                        <span>Sign In</span>
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center space-x-2">
+                        <span class="relative">
+                            <img src="../assets/images/svg/wish.svg" alt="wish">
+                            <span class="absolute bg-light-blue80-sh text-sm text-black -top-5 -right-2 px-1 rounded-full">0</span>
+                        </span>
+                        <span>Wish List</span>
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center space-x-2">
+                        <span class="relative">
+                            <img src="../assets/images/svg/cart.svg" alt="cart">
+                            <span class="absolute bg-light-blue80-sh text-sm text-black -top-5 -right-2 px-1 rounded-full">0</span>
+                        </span>
+                        <span>Cart</span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--  -->
+        <div class="px-10 py-3 border border-t-0">
+            <div class="w-3/4 mx-auto flex items-center justify-between">
+                <div class="flex items-center space-x-1">
+                    <span class="w-6 h-6">
+                        <img src="../assets/images/svg/categories/fashion.svg" alt="fashion">
+                    </span>
+                    <span class="text-blue-sh text-sm">Fashion</span>
+                </div>
+                <!--  -->
+                <div class="flex items-center space-x-1">
+                    <span class="w-6 h-6">
+                        <img src="../assets/images/svg/categories/gadgets.svg" alt="gadgets">
+                    </span>
+                    <span class="text-blue-sh text-sm">Gadgets</span>
+                </div>
+                <!--  -->
+                <div class="flex items-center space-x-1">
+                    <span class="w-6 h-6">
+                        <img src="../assets/images/svg/categories/accessories.svg" alt="accessories">
+                    </span>
+                    <span class="text-blue-sh text-sm">Accessories</span>
+                </div>
+                <!--  -->
+                <div class="flex items-center space-x-1">
+                    <span class="w-6 h-6">
+                        <img src="../assets/images/svg/categories/home.svg" alt="home">
+                    </span>
+                    <span class="text-blue-sh text-sm">Home</span>
+                </div>
+                <!--  -->
+                <div class="flex items-center space-x-1">
+                    <span class="w-6 h-6">
+                        <img src="../assets/images/svg/categories/beauty.svg" alt="beauty">
+                    </span>
+                    <span class="text-blue-sh text-sm">Beauty</span>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div class="flex items-center space-x-1">
+                    <span class="w-6 h-6">
+                        <img src="../assets/images/svg/categories/other.svg" alt="others">
+                    </span>
+                    <span class="text-blue-sh text-sm">Others</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- banner -->
+        <div class="banner px-20 pt-32 pb-24">
+            <div class="flex items-center space-x-20">
+                <div class="flex-none">
+                    <button class="btn-carousel-arrow px-3 py-2">
+                        <img src="../assets/images/svg/arrowl.svg" alt="arrow-left">
+                    </button>
+                </div>
+                <div class="flex-grow flex flex-col items-start space-y-10">
+                    <h2 class="text-5xl font-bold flex flex-col space-y-5">
+                       <span class="text-dark-blue"> Shop your favortes</span> <span class="text-dark-blue">products With</span> <span>Bitcoin</span>
+                    </h2>
+                    <button class="btn-blue px-6 py-3 font-bold">Shop Now</button>
+                </div>
+                <div class="flex-none">
+                    <button class="btn-carousel-arrow px-3 py-2">
+                        <img src="../assets/images/svg/arrowr.svg" alt="arrow-right">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="px-20 py-10">
+            <div class="grid grid-cols-3 gap-16">
+                <!--  -->
+                <div class="card-showcase flex">
+                    <div class="flex-1 flex flex-col justify-between py-5 pl-8">
+                        <span class="">
+                            <h2 class="text-2xl text-dark-blue-23">Product Name and brand</h2>
+                        </span>
+                        <div class="flex flex-col">
+                            <span class="text-sm text-gray-22">Promo time line</span>
+                            <div class="flex space-x-3">
+                                <span class="text-red-sh font-bold">$200,00</span>
+                                <span class="text-dark-blue-23 font-bold">$300,00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="relative">
+                        <span class="discount w-16 h-16 py-2 px-2 text-center flex items-center rounded-full absolute top-14 right-28 font-light">
+                            15% OFF
+                        </span>
+                        <img src="../assets/images/png/products/watch.png" class="h-44" alt="watch">
+                    </div>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div class="card-showcase flex">
+                    <div class="flex-1 flex flex-col justify-between py-5 pl-8">
+                        <span class="">
+                            <h2 class="text-2xl text-dark-blue-23">Product Name and brand</h2>
+                        </span>
+                        <div class="flex flex-col">
+                            <span class="text-sm text-gray-22">Promo time line</span>
+                            <div class="flex space-x-3">
+                                <span class="text-red-sh font-bold">$200,00</span>
+                                <span class="text-dark-blue-23 font-bold">$300,00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="relative">
+                        <span class="discount w-16 h-16 py-2 px-2 text-center flex items-center rounded-full absolute top-14 right-28 font-light">
+                            15% OFF
+                        </span>
+                        <img src="../assets/images/png/products/sneakers.png" class="h-44" alt="watch">
+                    </div>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div class="card-showcase flex">
+                    <div class="flex-1 flex flex-col justify-between py-5 pl-8">
+                        <span class="">
+                            <h2 class="text-2xl text-dark-blue-23">Product Name and brand</h2>
+                        </span>
+                        <div class="flex flex-col">
+                            <span class="text-sm text-gray-22">Promo time line</span>
+                            <div class="flex space-x-3">
+                                <span class="text-red-sh font-bold">$200,00</span>
+                                <span class="text-dark-blue-23 font-bold">$300,00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="relative">
+                        <span class="discount w-16 h-16 py-2 px-2 text-center flex items-center rounded-full absolute top-14 right-28 font-light">
+                            15% OFF
+                        </span>
+                        <img src="../assets/images/png/products/rings.png" class="h-44" alt="watch">
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+
+            <!--  -->
+            <div class="flex items-center justify-between py-12">
+                <!--  -->
+                <div class="flex items-center space-x-5">
+                    <span>
+                        <img src="../assets/images/svg/quality.svg" alt="quality">
+                    </span>
+                    <div class="flex flex-col">
+                        <span class="text-gray-3a font-bold">High Quality</span>
+                        <span class="text-gray-43 italic">crafted from top materials</span>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="flex items-center space-x-5">
+                    <span>
+                        <img src="../assets/images/svg/warranty.svg" alt="warranty">
+                    </span>
+                    <div class="flex flex-col">
+                        <span class="text-gray-3a font-bold">Warrany Protection</span>
+                        <span class="text-gray-43 italic">Over 2 years</span>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="flex items-center space-x-5">
+                    <span>
+                        <img src="../assets/images/svg/shipping.svg" alt="shipping">
+                    </span>
+                    <div class="flex flex-col">
+                        <span class="text-gray-3a font-bold">Free Shipping</span>
+                        <span class="text-gray-43 italic">Order over 150$</span>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="flex items-center space-x-5">
+                    <span>
+                        <img src="../assets/images/svg/support.svg" alt="support">
+                    </span>
+                    <div class="flex flex-col">
+                        <span class="text-gray-3a font-bold">24 / 7 Support</span>
+                        <span class="text-gray-43 italic">Dedicated support</span>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
 </body>
 </html>

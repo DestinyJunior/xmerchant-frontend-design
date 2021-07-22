@@ -37,6 +37,10 @@ a {
   background-color:  #001119;
 }
 
+.text-dark-blue20-sh {
+  color:  #008ACC;
+}
+
 .text-dark-blue { 
   color: #004566;
 }
@@ -59,6 +63,14 @@ a {
   background-color: #4F4F4F;
 }
 
+.bg-gray-c4 {
+  background-color: #C4C4C4;
+}
+
+.text-gray-84 {
+  color: #828282;
+}
+
 .text-gray-scale {
     color: #9FA2B4;
 }
@@ -66,6 +78,11 @@ a {
 .text-gray2-sh {
   color: #F2F2F2;
 }
+
+.text-gray22-sh {
+  color: #4F4F4F;
+}
+
 
 .text-gray-2{
     color: #858585;
@@ -127,6 +144,10 @@ ul .link:hover {
     border: 1px solid #cacdd8;
     box-sizing: border-box;
   }
+
+  .border-bottom-2 {
+    border-bottom: 2px solid #cacdd8;
+  } 
 
 .card-border {
   border-radius: 10px;
@@ -248,3 +269,35 @@ ul .link:hover {
 .text-gray-3a {
   color: #3A3A3A;
 }
+
+.divider {
+  background-color: #cacdd8;
+  height: 2px;
+}
+
+.divider-border {
+  background-color: #00ADFF;
+  height: 4px;
+}
+
+/* borders */
+
+.border-left-1 {
+  border-left: 2px solid #cacdd8;
+} 
+
+.border-right-1 {
+  border-right: 2px solid #cacdd8;
+}
+
+/* product card */
+
+.price-old-color {
+  color: #666666;
+  text-decoration-line: line-through;
+}
+
+.review-text {
+  color: #A2A6B0;
+}
+

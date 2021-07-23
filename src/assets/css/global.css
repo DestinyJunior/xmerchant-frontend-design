@@ -29,12 +29,24 @@ a {
   background-color:  #E6F7FF;
 }
 
+.bg-blue2-sh {
+  background-color: #0156FF;
+}
+
 .bg-light-blue80-sh {
   background-color:  #CCEFFF;
 }
 
 .bg-dark-blue-sh {
   background-color:  #001119;
+}
+
+.bg-orange-sh {
+  background-color: #E9A426;
+}
+
+.text-dark-blue-sh {
+  color:  #001119;
 }
 
 .text-dark-blue20-sh {
@@ -290,6 +302,11 @@ ul .link:hover {
   border-right: 2px solid #cacdd8;
 }
 
+.border-light-blue {
+  border: 1px solid #E6F7FF;
+  box-sizing: border-box;
+}
+
 /* product card */
 
 .price-old-color {
@@ -301,3 +318,27 @@ ul .link:hover {
   color: #A2A6B0;
 }
 
+/* buttons */
+
+.btn-filter-clear {
+  color: #BDBDBD;
+  border: 1px solid #BDBDBD;
+  box-sizing: border-box;
+}
+
+.border-page-filter {
+  border: 2px solid #BDBDBD;
+box-sizing: border-box;
+border-radius: 2px;
+}
+
+.border-pagination {
+  border: 1px solid #828282;
+  box-sizing: border-box;
+}
+
+.active-page {
+  background-color: #E6F7FF;
+  color: #333333;
+  border: none;
+} 

@@ -37,6 +37,10 @@ a {
   background-color:  #CCEFFF;
 }
 
+.bg-light-blue-fa {
+  background-color: #FAFAFB;
+}
+
 .bg-dark-blue-sh {
   background-color:  #001119;
 }
@@ -314,6 +318,14 @@ ul .link:hover {
 }
 
 /* borders */
+
+.border-bottom-gray-e5 {
+  border-bottom: 4px solid #E5E8EA;
+}
+
+.border-bottom-2-eo {
+  border-bottom: 2px solid #E0E0E0;
+} 
 
 .border-bottom-2 {
   border-bottom: 2px solid #cacdd8;
